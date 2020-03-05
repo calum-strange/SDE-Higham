@@ -1,15 +1,11 @@
-#+TITLE: Some basic algorithms for stochastic differential equations in NumPy
+#+TITLE: Some basic algorithms for stochastic differential equations in NumPy (Python 3)
 
-This is an updated version of 
-
-https://github.com/alu042/SDE-higham 
-
-converted to run in Python 3.
+This is an updated version of the 2013 work presented by Dr Alexander Lundervold (http://alexander.lundervold.com/) in GitHub (see https://github.com/alu042/SDE-higham). We all code is updated/converted to run in Python 3.
 
 * Overview
 Modified from the MATLAB versions in
   Higham "An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations", SIAM Review, Vol. 43, No. 3, 2001.
-  http://www.caam.rice.edu/~cox/stoch/dhigham.pdf
+  https://doi.org/10.1137/S0036144500378302. Downloadble version from Des Higham's website: http://personal.strath.ac.uk/d.j.higham/Plist/P42.pdf
 
 Details about the algorithms can be found in the paper. 
 
