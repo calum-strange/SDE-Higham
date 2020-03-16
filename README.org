@@ -1,7 +1,9 @@
-#+TITLE: Some basic algorithms for stochastic differential equations in NumPy (Python 3)
+#+TITLE: Some basic algorithms for stochastic differential equations in Python 3 and MATLAB
 
 This is an updated version of the 2013 work presented by Dr Alexander Lundervold (http://alexander.lundervold.com/) in GitHub (see https://github.com/alu042/SDE-higham) and the MatLab files Prof Des Higham (https://www.maths.ed.ac.uk/~dhigham/) makes available in his homepage (https://www.maths.ed.ac.uk/~dhigham/algfiles.html). 
-The code we present here is the respective code found on those two locations updated/converted to run in Python 3.
+The code we present here is the respective code found on those two locations updated/converted to run in Python 3 and including the typo corrections as detailed by Prof Des Highman on his website. 
+
+We thank Prof Highman for kindly giving us permision to host the MATLAB files here.
 
 * Overview
 Modified from the MATLAB versions in
@@ -14,15 +16,15 @@ Details about the algorithms can be found in the paper.
 
 | Filename       | Description                                                   |
 |----------------+---------------------------------------------------------------|
-| bpath2.py      | Simulation of a Brownian path                                 |
-| bpath3.py      | Function along a Brownain path                                |
-| stint.py       | Approximate stochastic integrals                              |
-| em.py          | Euler-Maruyama method on linear SDE                           |
-| emstrong.py    | Test strong convergence of Euler-Maruyama                     |
-| emweak.py      | Test weak convergence of Euler-Maruyama                       |
-| milstrong.py   | Test strong convergence of Milstein method                    |
-| stab.py        | Mean-square and asymptotic stability test for E-M             |
-| chain.py       | Test stochastic chain rule                                    |
-| milstein-3d.py | Milstein's method applied to a 3D SDE (not part of SIAM paper)|
+| bpath2         | Simulation of a Brownian path                                 |
+| bpath3         | Function along a Brownain path                                |
+| stint          | Approximate stochastic integrals                              |
+| em             | Euler-Maruyama method on linear SDE                           |
+| emstrong       | Test strong convergence of Euler-Maruyama                     |
+| emweak         | Test weak convergence of Euler-Maruyama                       |
+| milstrong      | Test strong convergence of Milstein method                    |
+| stab           | Mean-square and asymptotic stability test for E-M             |
+| chain          | Test stochastic chain rule                                    |
+| milstein-3d    | Milstein's method applied to a 3D SDE (not part of SIAM paper)|
 
 
