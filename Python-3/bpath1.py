@@ -26,3 +26,5 @@ for j in range(2,N):
 plt.plot(W,'r-') # plot W against t
 plt.xlabel('t',fontsize=16)
 plt.ylabel('W(t)',fontsize=16, rotation=90)
+
+plt.show()
