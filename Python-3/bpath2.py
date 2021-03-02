@@ -18,7 +18,7 @@ W=np.cumsum(dW);
 W=np.insert(W,0,0)
 
 plt.plot(t,W)
-plt.xlabel(r'$t$',fontsize=16); plt.ylabel(r'$W(t)$',fontsize=16,rotation=0)
+plt.xlabel(r'$t$',fontsize=16); plt.ylabel(r'$W(t)$',fontsize=16,rotation=90)
 plt.title('A Brownian path')
 plt.show()
 
