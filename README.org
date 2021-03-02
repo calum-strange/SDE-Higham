@@ -1,6 +1,6 @@
 #+TITLE: Some basic algorithms for stochastic differential equations in Python 3 and MATLAB
 
-This is an updated version of the 2013 work presented by Dr Alexander Lundervold (http://alexander.lundervold.com/) in GitHub (see https://github.com/alu042/SDE-higham) and the MatLab files Prof Des Higham (https://www.maths.ed.ac.uk/~dhigham/) makes available in his homepage (https://www.maths.ed.ac.uk/~dhigham/algfiles.html). 
+This is an updated version of the 2013 work presented by Dr Alexander Lundervold (http://alexander.lundervold.com/) on GitHub (see https://github.com/alu042/SDE-higham) and the MatLab files Prof Des Higham (https://www.maths.ed.ac.uk/~dhigham/) makes available on his homepage (https://www.maths.ed.ac.uk/~dhigham/algfiles.html). 
 The code we present here is the respective code found on those two locations updated/converted to run in Python 3 and including the typo corrections as detailed by Prof Des Highman on his website. 
 
 We thank Prof Highman for kindly giving us permision to host the MATLAB files here.
@@ -16,6 +16,7 @@ Details about the algorithms can be found in the paper.
 
 | Filename       | Description                                                   |
 |----------------+---------------------------------------------------------------|
+| bpath1         | Naive simulation of a Brownian path                           |           
 | bpath2         | Simulation of a Brownian path                                 |
 | bpath3         | Function along a Brownain path                                |
 | stint          | Approximate stochastic integrals                              |
